@@ -16,8 +16,8 @@
    <- next(slot);
       !check(slots).
 
-+!check(slots): true.
+//+!check(slots): true.
 
 // The second clause for +!check(slots) could be replaced by:
-//+!check(slots) : pos(r1,6,6)
-//  <- .print("Done!").
++!check(slots) : pos(r1,6,6)
+  <- .print("Done!").
