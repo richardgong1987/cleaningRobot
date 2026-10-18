@@ -1,8 +1,7 @@
 MAS cleaningRobot {
-
     environment: csck504.CleaningEnv
 
-    agents: r1_v3; r2;
+    agents: r1_v4; r2;
 
     aslSourcePath: "src/agt";
 }
